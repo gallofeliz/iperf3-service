@@ -6,7 +6,7 @@ services:
       context: .
     environment:
         - TZ=Europe/Paris
-        # - SERVER=true
-        # - CLIENT=true
+        #- SERVER_ENABLED=false
+        - IPERF_TIME=2
     ports:
       - "8080:80"
