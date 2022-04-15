@@ -1,0 +1,22 @@
+{
+  "name": "iperf3-service",
+  "version": "1.0.0",
+  "description": "Iperf3 service with nodes callable by http API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gallofeliz/iperf3-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gallofeliz/iperf3-service/issues"
+  },
+  "homepage": "https://github.com/gallofeliz/iperf3-service#readme",
+  "dependencies": {
+    "js-libs": "github:gallofeliz/js-libs"
+  }
+}
