@@ -44,5 +44,5 @@ Example with two server node1 and node2, and telegraf in node1 with docker servi
 ### Compatibility / Impacts
 
 - x86 and arm (Raspberry 3 & 4) compatible
-- Relatively small Memory footprint (~ 23 MiB on x64)
-- @todo reduce image size (294 MB vs 91 MB for node:12-alpine) -> probably node_modules black hole
+- Small image (41.2 MB uncompressed at this moment)
+- Relatively small Memory footprint (~ 18-23 MiB on x64) ; @todo check Memory Leak (including http request abort)
