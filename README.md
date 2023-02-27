@@ -1,5 +1,7 @@
 # iperf3-service
 
+⚠️ Broken. js-libs needs to be updated.
+
 Iperf3 service with nodes callable by http API
 
 See docker-compose.yml
